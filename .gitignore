@@ -1,0 +1,9 @@
+#ENVIRONEMENTAL VARIABLES
+.env
+.env.local
+
+#VIRTUAL ENVIRONMENT
+.venv
+
+#FILES
+connection-testing.py
