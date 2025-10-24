@@ -73,7 +73,7 @@ class SolarDatabaseAdapter:
         return response.data[0] if response.data else None
     
 
-def test_envelope():
+"""def test_envelope():
     load_dotenv()
     supabase = create_client(os.environ.get("SUPABASE_URL"), os.environ.get("SUPABASE_ANON_KEY"))
     adapter = SolarDatabaseAdapter(supabase)
@@ -86,4 +86,4 @@ def test_envelope():
 
 
 if __name__ == "__main__":
-    test_envelope()
+    test_envelope()"""

@@ -7,7 +7,7 @@ from datetime import datetime
 from supabase import create_client
 from typing import Dict, Any, List
 from langgraph.graph import StateGraph, END
-from envelope import SolarEnvelopeBuilder, SolarDatabaseAdapter
+from backend.envelope import SolarEnvelopeBuilder, SolarDatabaseAdapter
 import anthropic
 
 class WorkerState:

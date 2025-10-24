@@ -6,10 +6,9 @@ import anthropic
 from dotenv import load_dotenv
 from datetime import datetime
 from supabase import create_client
-from supabase._async.client import create_client as create_async_client
-from typing import Dict, Any, List
+from typing import Dict, Any
 from langgraph.graph import StateGraph, END
-from envelope import SolarEnvelopeBuilder, SolarDatabaseAdapter
+from backend.envelope import SolarDatabaseAdapter
 
 class CoordinatorMoonState:
     def __init__(self): 
